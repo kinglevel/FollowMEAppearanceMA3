@@ -210,6 +210,7 @@ local function updateLayout(fixtures, appearances)
 
 
       if tonumber(appearances[k].value) == fixtureValue then
+        --Magic like Harry Potter
         Cmd("Assign " .. appearances[k].appearance .. " At Fixture " .. fixtureID)
       end
 
@@ -225,7 +226,7 @@ end
 
 
 
-local function loop(fixtures, appearances)
+local function loop(fixtures, appearances, timetosleep)
 
   local previous = updateValues(fixtures)
   
@@ -235,11 +236,12 @@ local function loop(fixtures, appearances)
     --check if stuff has changed
     if tablesDiffer(current, previous) then
       updateLayout(fixtures, appearances)
+      Printf("Isak should be Happy MA3 proggypittykitty now")
     end
     --make a real copy of the table to compare
     previous = deepcopy(current)
     --stability
-    sleep(0.1)
+    sleep(timetosleep)
   end
 
 end
@@ -290,8 +292,11 @@ local function Main(displayHandle)
   table.insert(appearances, {appearance="Appearance 32", value="31"})
 
 
+  --If you have any performance issues, you can raise this number. (Seconds)
 
-  loop(fixtures, appearances)
+  local timetosleep = 0
+
+  loop(fixtures, appearances, timetosleep)
 
 
 

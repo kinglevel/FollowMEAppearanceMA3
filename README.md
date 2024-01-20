@@ -18,8 +18,13 @@ git clone https://github.com/kinglevel/FollowMEAppearanceMA3.git
 
 ## How to run
 
-Import the plugin in GrandMA3 and run it.
-It runs constantly, looking for changes on the follow me fixtures.
+1. Import images and make appearances.
+2. Import the plugin.
+3. Configure the main function as needed.
+4. Run the plugin. 
 
-Configure the main script in the main function as needed.
-Images and template for more numbers in the images folder.
+
+Good to know
+*You need to restart it on every reboot
+*It runs constantly, looking for changes on the follow me fixtures. It can be adjusted with the
+*Images and template for more numbers in the images folder.
