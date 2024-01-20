@@ -2,6 +2,8 @@
 
 Assigns apperances to FollowME fixtures automagically.
 
+You want for example a layout view by the follow operators, so they can see what fixture is assigned to what target.
+
 
 ## How to install
 #### MacOS:
