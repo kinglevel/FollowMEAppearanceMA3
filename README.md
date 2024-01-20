@@ -1,4 +1,4 @@
-# TimecodeTokenDelMA3
+# FollowMEAppearanceMA3
 
 Assigns apperances to FollowME fixtures automagically.
 
