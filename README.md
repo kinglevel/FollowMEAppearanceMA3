@@ -26,7 +26,10 @@ git clone https://github.com/kinglevel/FollowMEAppearanceMA3.git
 4. Run the plugin. 
 
 
-Good to know
-*You need to restart it on every reboot
-*It runs constantly, looking for changes on the follow me fixtures. It can be adjusted with the
-*Images and template for more numbers in the images folder.
+### Good to know
+* You need to restart it on every reboot
+* You need granted universes to make this work. GrandMA3 VizKey or GrandMA3 Hardware.
+* It runs constantly, looking for changes on the follow me fixtures. It can be adjusted with the timetosleep variable
+* Images and PSD template for more numbers in the images folder.
+
+
